@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^tickets/view/([^\.]+)$ tickets/view/index.php?id=$1 [NC,L]
+RewriteRule ^acp/tickets/view/([^\.]+)$ acp/tickets/view/index.php?id=$1 [NC,L]

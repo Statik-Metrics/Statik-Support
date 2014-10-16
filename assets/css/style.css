@@ -1,0 +1,35 @@
+body {
+    margin-top: 1em;
+    background: #f0f0f0;
+}
+
+.codehilite {
+    background-color: #FAF9FA !important;
+}
+
+.code-segment {
+    padding-top: 0.01em !important;
+    padding-bottom: 0.01em !important;
+}
+
+.padded-title {
+    padding-bottom: 13px;
+}
+
+.center{
+    text-align: center;
+}
+
+.align-right{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: #428bca;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #2a6496;
+}
